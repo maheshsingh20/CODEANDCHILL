@@ -1,0 +1,96 @@
+.weekly-ranking {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 20px;
+  }
+  
+  .ranking-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .ranking-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .info-icon {
+    width: 14px;
+    height: 14px;
+    color: #888;
+  }
+  
+  .ranking-list {
+    border-top: 1px solid #ccc;
+  }
+  
+  .ranking-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+  }
+  
+  .rank-number {
+    width: 28px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .avatar-container {
+    flex: 0 0 34px;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 10px;
+  }
+  
+  .avatar {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+  
+  .rank-badge {
+    position: absolute;
+    top: -3px;
+    left: 11px;
+    height: 12px;
+    width: 12px;
+  }
+  
+  .user-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .username {
+    font-weight: bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 90px;
+  }
+  
+  .problems-solved {
+    color: #888;
+    font-size: 0.85rem;
+  }
+  
+  .show-more {
+    text-align: center;
+    margin-top: 15px;
+    color: #888;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,22 @@
+/* Container for the graph */
+.rating-contest-graph {
+    overflow: hidden;
+    width: 385px;
+    height: 123px;
+    position: relative;
+    text-align: left;
+    line-height: normal;
+  }
+  
+  /* Optional additional styles for axes, labels, or the container */
+  .highcharts-axis-labels {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.8em;
+    color: #333;
+  }
+  
+  .highcharts-root {
+    font-size: 1rem;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  

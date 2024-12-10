@@ -1,0 +1,111 @@
+.Twosum {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .qdesc {
+    width: 45%;
+    padding: 20px;
+    background-color: #f0f8ff; /* Soft blue for better readability */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-family: Arial, sans-serif; /* Cleaner font */
+    line-height: 1.6; /* Improve readability with better line spacing */
+  }
+  
+  .qdesc h1 {
+    font-size: 24px;
+    color: #333; /* Darker text for better contrast */
+    margin-bottom: 15px;
+  }
+  
+  .qdesc .det button {
+    padding: 6px 12px;
+    margin-right: 5px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .qdesc .det button:hover {
+    background-color: #0056b3;
+  }
+  
+  .qdesc .qtext {
+    margin-top: 15px;
+    color: #555; /* Subtle text color */
+    font-size: 16px;
+  }
+  
+  .qdesc .Testexample, .qdesc .constraint {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff; /* White background for content separation */
+    border-left: 4px solid #007bff; /* Highlight with a border */
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .qdesc .Testexample h3, .qdesc .constraint h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #007bff; /* Match primary color */
+  }
+  
+  .qdesc li {
+    margin-bottom: 5px;
+  }
+  
+  
+  .qeditor {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 300px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .run-btn, .submit-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .run-btn:hover, .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .output {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+  }
+  
+  pre {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+  }
+  

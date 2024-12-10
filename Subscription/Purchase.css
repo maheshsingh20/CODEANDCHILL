@@ -1,0 +1,90 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #1a202c;
+    color: #f7fafc;
+  }
+  
+  .subscription-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .header p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .plan-container {
+    background-color: #2d3748;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plan-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .plan-container p {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .plans {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 2rem;
+  }
+  
+  .plan {
+    text-align: center;
+  }
+  
+  .plan h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .plan p {
+    font-size: 1.5rem;
+  }
+  
+  .disclaimer {
+    font-size: 0.875rem;
+    color: #e2e8f0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .purchase-btn {
+    background-color: #3182ce;
+    color: #ffffff;
+    font-size: 1.25rem;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .purchase-btn:hover {
+    background-color: #2b6cb0;
+  }
+  

@@ -1,0 +1,161 @@
+.container {
+  width: 100%;
+}
+
+.intro {
+  background-image: url("../assets/1658049.png");
+  background-size: cover;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+  height: 100vh;
+}
+
+
+.Intro h2 {
+  padding-top: 10%; /* Specify a padding value */
+}
+
+.section-detail {
+  padding-left: 20%;
+  padding-top: 10%;
+}
+
+.section-detail h2 {
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+  color: #020202;
+  margin-bottom: 18px;
+}
+
+.section-detail h4 {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 400;
+  color: #020202;
+  margin-bottom: 18px;
+}
+
+ul li {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.section-detail h3 {
+  color: maroon;
+  text-decoration: underline;
+}
+
+.section-detail button {
+  margin-top: 15px;
+  background-color: blanchedalmond;
+  padding: 10px 35px;
+}
+
+.section-detail p {
+  margin-top: 30px;
+  width: fit-content;
+  padding: 20px;
+  border: 2px solid #020202;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.description {
+  width: 100%; /* Adjust as needed for layout */
+  margin: 0 auto; /* Center the section */
+  padding: 20px;
+  background-color: #d7f1c37a; /* Light background for readability */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.description h2 {
+  text-decoration:2px maroon underline ;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.description h3 {
+  font-size: 28px;
+  border-left: 3px solid maroon;
+  text-decoration:2px maroon underline ;
+  padding-left: 5px;
+  font-weight: 600;
+  margin: 20px 0 10px;
+  color: #444;
+}
+
+.description p {
+  font-size: 18px;
+  background-color: rgba(139, 188, 190, 0.501);
+  background-color: rgba(139, 188, 190, 0.501);
+  line-height: 1.6;
+  color: #555;
+  width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.description ul {
+  padding-left: 20px;
+  background-color: rgba(139, 188, 190, 0.501);
+  padding: 10px;
+  border-radius: 5px;
+  width: 70%;
+  margin-bottom: 15px;
+}
+
+.description ul li {
+  width: 70%;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.description ul {
+  padding-left: 20px;
+  width: 70%;
+  margin-bottom: 15px;
+}
+
+.description ul li {
+  width: 70%;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.description ul li strong {
+  color: #222; /* Highlighted text for emphasis */
+}
+
+.description p strong {
+  color: #000; /* Emphasize strong text in paragraphs */
+}
+
+@media (max-width: 768px) {
+  .description {
+      width: 90%; /* Adjust for smaller screens */
+      padding: 15px;
+  }
+
+  .description h2 {
+      font-size: 30px;
+  }
+
+  .description h3 {
+      font-size: 24px;
+  }
+
+  .description p,
+  .description ul li {
+      font-size: 16px;
+  }
+}

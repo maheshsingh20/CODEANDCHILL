@@ -1,0 +1,21 @@
+.welcome-section {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 200px 20px;
+    text-align: center;
+    background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+  }
+  
+  @media (max-width: 768px) {
+    .welcome-section {
+      padding: 150px 20px; /* Adjust padding for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .welcome-section {
+      padding: 100px 20px; /* Further adjust padding for mobile */
+    }
+  }
+  

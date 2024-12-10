@@ -1,0 +1,59 @@
+/* Updated CourseStrip.css */
+.coursesStripWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mainContainerSubheader {
+    border: 1px solid black;
+    background-color: rgb(147, 140, 147);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .scrollContainer {
+    background-color: rgb(163, 158, 163);
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  }
+  
+  .scrollContainer::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, Edge */
+  }
+  
+  .containerSubheader {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .courseItem {
+    padding: 10px 20px;
+    white-space: nowrap;
+  }
+  
+  .link {
+    color: #273239;
+    text-decoration: none;
+  }
+  
+  .scrollButtons {
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+  }
+  
+  .scrollButton {
+    background-color: skyblue;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 5px;
+  }
+  

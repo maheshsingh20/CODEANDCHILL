@@ -1,0 +1,72 @@
+.problem-sheet-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .topic {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .topic-header {
+    display: flex;
+    border: 2px solid rgba(1, 4, 29, 0.224);
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: #aeb0b0;
+    color: black;
+    transition: background-color 0.3s ease;
+  }
+  
+  .topic-header:hover {
+    background-color: #8c909164;
+  }
+  
+  .problem-list {
+    padding: 10px 15px;
+    background-color: #f1f1f1;
+    border-top: 1px solid #000000;
+  }
+  
+  .problem-list p {
+    margin: 5px 0;
+    color: #333;
+    padding: 3px;
+    border-radius: 2px;
+  }
+  
+  .problem-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #000000;
+  }
+  
+  .problem-item:last-child {
+    border-bottom: none;
+  }
+  
+  .view-button {
+    background-color: #dcddde;
+    color: rgb(0, 0, 0);
+    border: 1.5px solid black;
+    padding: 5px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-left: auto; /* Aligns the button to the right */
+  }
+  
+  .view-button:hover {
+    background-color: #9fdfc96d;
+  }
+  

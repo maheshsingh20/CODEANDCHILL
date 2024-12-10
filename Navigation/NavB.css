@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.brand-logo {
+  width: 50px;
+  height: 40px;
+  border-radius: 4px;
+  object-fit: cover;
+  border: 2px solid black;
+}
+
+.ContainerFor {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid black; /* Fixed border issue */
+}
+
+.brand {
+  border-radius: 4px;
+  display: flex;
+  padding: 7px;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px violet;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 1.2rem;
+}
+
+.nav-links-div {
+  display: flex;
+  gap: 12px;
+  padding: 8px;
+  text-align: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer; /* Added cursor pointer */
+}
+
+a:hover {
+  color: rgb(4, 47, 106);
+}
+
+.RIGHT {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+  margin-right: 3%;
+  gap: 5px;
+}
+
+.search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+
+.search-input {
+  border: 2px solid black;
+  width: 100%;
+  padding: 8px 35px 8px 10px;
+  border-radius: 2px;
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  pointer-events: none;
+}
+
+.login-btn, .signup-btn {
+  border: 2px solid green;
+  padding: 6px;
+}
+
+.profile-icon {
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+  padding: 6px;
+  border-radius: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .RIGHT {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* Dropdown menu visibility on hover with Flexbox */
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-container:hover .dropdown-menu {
+  display: flex; /* Use flex to show the dropdown */
+}
+
+.dropdown-key {
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 5px;
+  border: 1px solid black;
+  color: blueviolet;
+  font-size: 1.1rem;
+}
+.dropdown-key:hover{
+  background-color: #f0f0f0;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width:fit-content;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+  display: none; /* Initially hidden */
+  flex-direction: column; /* Flexbox column direction for items */
+  z-index: 1000;
+  border-radius: 2px;
+}
+
+.dropdown-menu a {
+  padding: 8px 12px;
+  text-align: left;
+  justify-content: left;
+  text-decoration: none;
+  color: inherit;
+  display: inline-block; /* Ensure links stay in one line */
+  white-space: nowrap;
+  cursor: pointer; /* Added cursor pointer */
+}
+
+.dropdown-menu a:hover {
+  background-color: black;
+  color: white;
+}
+
+
+
+.RIGHT {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  background-color: #f5f5f5; /* Adjust as per your design */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.search-box {
+  margin-right: 20px;
+  position: relative;
+}
+
+.search-input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.search-input:focus {
+  border-color: #007bff; /* Adjust to your theme color */
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.profile-image:hover {
+  transform: scale(1.1);
+}

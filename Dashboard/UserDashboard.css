@@ -1,0 +1,536 @@
+/* Profile Dashboard */
+.profile-dashboard {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem;
+}
+
+/* Left Side - Profile Info */
+.profile-dashboard .left-side {
+    width: 25%;
+    padding-right: 2rem;
+    background: linear-gradient(45deg, #f1e7d6, #c3d9e1); /* Soft pastel gradient */
+    border-radius: 8px;
+    border: 2px solid #f0f0f0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.profile-dashboard .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.profile-dashboard .profile-header .profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.profile-dashboard .profile-info {
+    flex-grow: 1;
+}
+
+.profile-dashboard .profile-info .username {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.profile-dashboard .rank {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* Sections within Left Side */
+.profile-dashboard .bio-section,
+.profile-dashboard .personal-details,
+.profile-dashboard .social-contact,
+.profile-dashboard .education-section,
+.profile-dashboard .skills-section,
+.profile-dashboard .community-engagement {
+    background: linear-gradient(45deg, #fceabb, #ffb6b6); /* Light yellow to soft pink */
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+}
+
+.profile-dashboard .bio-section h3,
+.profile-dashboard .personal-details h3,
+.profile-dashboard .social-contact h3,
+.profile-dashboard .education-section h3,
+.profile-dashboard .skills-section h3,
+.profile-dashboard .community-engagement h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.profile-dashboard .bio-section textarea,
+.profile-dashboard .personal-details input,
+.profile-dashboard .social-contact input,
+.profile-dashboard .education-section input,
+.profile-dashboard .skills-section input {
+    width: 80%;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    background-color: #f9f9f9; /* Light gray for input fields */
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+.profile-dashboard .bio-section p,
+.profile-dashboard .personal-details ul,
+.profile-dashboard .social-contact ul,
+.profile-dashboard .education-section p,
+.profile-dashboard .skills-section ul,
+.profile-dashboard .community-engagement ul {
+    margin-top: 0.5rem;
+}
+
+.profile-dashboard .skills-category {
+    margin-top: 1rem;
+}
+
+.profile-dashboard .skills-category h4 {
+    font-size: 1.15rem;
+    margin-bottom: 1rem;
+}
+
+.profile-dashboard .skills-section ul,
+.profile-dashboard .community-engagement ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.profile-dashboard .skills-section li,
+.profile-dashboard .community-engagement li {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.profile-dashboard input[type="text"],
+.profile-dashboard input[type="email"],
+.profile-dashboard input[type="file"],
+.profile-dashboard textarea {
+    width: 80%;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    background-color: #f9f9f9; /* Light gray for input fields */
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+.profile-dashboard button {
+    padding: 0.5rem 1rem;
+    background-color: #a8d5ba; /* Light mint green */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.profile-dashboard button:hover {
+    background-color: #8db69b; /* Slightly darker mint green */
+}
+
+/* Right Side - Placeholder for Additional Content */
+.profile-dashboard .right-side {
+    width: 67%;
+    background: linear-gradient(45deg, #c8e6c9, #e1f5fe); /* Soft green to light blue gradient */
+    border: 2px solid #f0f0f0;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.profile-dashboard .topcont {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.profile-dashboard .Leftt,
+.profile-dashboard .Rightt {
+    padding: 15px;
+    margin-top: 10px;
+    border: 2px solid #000000;
+    background-color: #f1f8e9; /* Light lime background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-dashboard .prob {
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.profile-dashboard .prob1{
+    width: 45%;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid #000000;
+    background-color: #f1f8e9; /* Light lime background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.profile-dashboard .prob2{
+    width: 45%;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid #000000;
+    background-color: #f1f8e9; /* Light lime background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/* Right Side - Placeholder for Additional Content */
+.profile-dashboard .right-side {
+    width: 67%;
+    background: linear-gradient(45deg, #c8e6c9, #e1f5fe); /* Soft green to light blue gradient */
+    border: 2px solid #f0f0f0;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+/* Content of Right Side */
+.profile-dashboard .Rightt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.profile-dashboard .Rightt h1 {
+    font-size: 1.5rem;
+    color: #3e5c6e;
+    margin-bottom: 1rem;
+}
+
+.profile-dashboard .Rightt .badge-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.profile-dashboard .Rightt .badge {
+    background-color: #ff8c00; /* Bright orange color */
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-dashboard .Rightt .badge.hot {
+    background-color: #ff6347; /* Hot red color for "Hot" badge */
+}
+
+.profile-dashboard .Rightt .contest-details {
+    font-size: 1rem;
+    color: #4f4f4f;
+    margin-top: 1rem;
+    line-height: 1.5;
+    max-width: 80%;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .profile-dashboard .Rightt {
+        text-align: center; /* Center the text and badges for mobile view */
+    }
+    .profile-dashboard .Rightt .badge-container {
+        justify-content: center;
+    }
+}
+
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+    .profile-dashboard .topcont {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-dashboard .Leftt,
+    .profile-dashboard .Rightt {
+        width: 80%;
+        margin: 10px 0;
+    }
+}
+
+
+/* Latest Submission Section */
+.profile-dashboard .latest-submissions {
+    background-color: #f0f8ff; /* Soft light blue background */
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-dashboard .latest-submissions h2 {
+    font-size: 1.5rem;
+    color: #3e5c6e;
+    margin-bottom: 1rem;
+}
+
+.profile-dashboard .latest-submissions ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.profile-dashboard .submission-item {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-dashboard .submission-item p {
+    margin: 0.5rem 0;
+}
+
+.profile-dashboard .question-title {
+    font-weight: bold;
+}
+
+.profile-dashboard .question-name {
+    color: #007BFF;
+}
+
+.profile-dashboard .submission-result {
+    font-weight: bold;
+}
+
+.profile-dashboard .result-pass {
+    color: #28a745; /* Green for passed */
+}
+
+.profile-dashboard .result-fail {
+    color: #dc3545; /* Red for failed */
+}
+
+.profile-dashboard .submission-date-time {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.profile-dashboard .date-time {
+    font-weight: bold;
+}
+
+.profile-dashboard .view-submission-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #007BFF;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #f8f9fa;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-dashboard .view-submission-link:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .profile-dashboard .latest-submissions h2 {
+        font-size: 1.25rem;
+    }
+
+    .profile-dashboard .latest-submissions {
+        padding: 1rem;
+    }
+
+    .profile-dashboard .submission-item {
+        padding: 0.8rem;
+    }
+
+    .profile-dashboard .view-submission-link {
+        padding: 0.4rem 0.8rem;
+    }
+}
+
+
+/* Courses Section */
+.course-section {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+.course-section h2 {
+    font-size: 1.8rem;
+    color: #3e5c6e;
+    margin-bottom: 1.5rem;
+}
+
+.course-section .courses-container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.course-section .purchased-courses,
+.course-section .enrolled-courses {
+    flex: 1;
+    min-width: 250px;
+}
+
+.course-section h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+.course-section .course-item {
+    background-color: #fff;
+    padding: 1.2rem;
+    border-radius: 8px;
+    margin-bottom: 1.2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-section .course-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.8rem;
+}
+
+.course-section .completion-status {
+    position: relative;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 0.8rem;
+}
+
+.course-section .completion-bar {
+    height: 100%;
+    background-color: #4caf50; /* Green for progress */
+    border-radius: 5px;
+}
+
+.course-section .completion-percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.9rem;
+    color: white;
+    font-weight: bold;
+}
+
+.course-section .view-course-link {
+    display: inline-block;
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course-section .view-course-link:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .course-section .courses-container {
+        flex-direction: column;
+    }
+
+    .course-section .course-item {
+        padding: 1rem;
+    }
+}
+
+/* Completed Courses Section */
+.completed-courses-section {
+    background-color: #f5faff;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.completed-courses-section h2 {
+    font-size: 1.8rem;
+    color: #3e5c6e;
+    margin-bottom: 1.5rem;
+}
+
+.completed-courses-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.completed-course-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.course-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #3e5c6e;
+}
+
+.certificate-link {
+    text-decoration: none;
+}
+
+.download-button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .completed-course-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+}

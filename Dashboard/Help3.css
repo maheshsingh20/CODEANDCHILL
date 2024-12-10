@@ -1,0 +1,95 @@
+.progress-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+    background-color: #f0f0f0;
+  }
+  
+  .circle-container {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .circle-mask {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 113%;
+    height: 113%;
+    transform: translate(-50%, -44%);
+  }
+  
+  .circle-svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+  }
+  
+  .circle-progress {
+    fill: transparent;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-dasharray: 265.2, 265.2;
+    stroke-dashoffset: 265.2;
+    transform-origin: 50% 50%;
+  }
+  
+  .stroke-easy {
+    stroke: rgba(0, 0, 0, 0.2);
+  }
+  
+  .stroke-medium {
+    stroke: rgba(0, 0, 255, 0.5);
+  }
+  
+  .stroke-hard {
+    stroke: rgba(255, 0, 0, 0.7);
+  }
+  
+  @keyframes rotate-circle {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .text-overlay {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .percentage {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .status {
+    font-size: 12px;
+    margin-top: 5px;
+    color: green;
+  }
+  
+  .status-text {
+    font-weight: bold;
+  }
+  
+  .total-percentage {
+    font-size: 16px;
+    color: #555;
+  }
+  

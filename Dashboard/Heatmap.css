@@ -1,0 +1,19 @@
+.heatmap {
+    display: grid;
+    grid-template-columns: repeat(52, 1fr);
+    gap: 2px;
+    margin-top: 10px;
+  }
+  
+  .heatmap-cell {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .heatmap-cell:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  

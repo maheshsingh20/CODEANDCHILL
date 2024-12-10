@@ -1,0 +1,143 @@
+.for{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+.form-container {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    width: 50%;
+    height: 100vh;
+    background-color: rgba(216, 191, 216, 0.442);
+    display: flex;  /* Enable flexbox */
+    justify-content: center;  /* Center horizontally */
+    align-items: center;  /* Center vertically */
+}
+
+form {
+    text-align: end;
+    padding: 10%;
+    gap: 10px;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fc {
+    display: flex;  /* Enable flexbox */
+    justify-content: center;  /* Center horizontally */
+    align-items: center;  /* Center vertically */
+    width: 100%;  /* Ensure the .fc div takes full width */
+    height: 100%;  /* Ensure the .fc div takes full height */
+    padding-right: 10%;
+    padding-top: 10%;
+}
+
+.input-section {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center; /* Ensure label and input are aligned vertically */
+    gap: 10px; /* Space between label and input */
+}
+
+.input-section input {
+    flex: 1; /* Allow input to grow and take available space */
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.input-section input::placeholder {
+    text-align: center;
+}
+
+.input-section label {
+    flex-shrink: 0; /* Prevent label from shrinking */
+    width: 30%; /* Ensure consistent label width */
+    text-align: right; /* Align label text to the right */
+}
+
+.gm {
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: center; /* Center items for small screens */
+}
+
+.gm div {
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.gm div:hover {
+    color: rgb(217, 206, 194);
+    background-color: black;
+    text-decoration: none;
+}
+
+.subm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subm button {
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 20%;
+    height: 30px;
+}
+
+.olduser {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+    justify-content: center; /* Center links for smaller screens */
+}
+
+/* Responsive adjustments for small screens */
+@media screen and (max-width: 600px) {
+    form {
+        padding: 5%; /* Reduce padding */
+        text-align: center; /* Center align form contents */
+    }
+
+    .input-section {
+        gap: 5px; /* Reduce gap for smaller screens */
+        flex-wrap: wrap; /* Allow wrapping if necessary */
+        justify-content: space-between; /* Ensure input and label stay aligned */
+    }
+
+    .input-section label {
+        width: auto; /* Allow labels to adjust dynamically */
+        text-align: left; /* Align text for better readability */
+    }
+
+    .input-section input {
+        width: 100%; /* Full width for small screens */
+    }
+
+    .gm {
+        gap: 8px; /* Increase gap for better spacing */
+    }
+
+    .gm div {
+        width: 100%; /* Full width for small screens */
+        text-align: center; /* Center align text */
+    }
+
+    .subm button {
+        width: 50%; /* Increase button width for small screens */
+    }
+
+    .olduser {
+        justify-content: center; /* Center old user link */
+        gap: 5px; /* Reduce gap for better alignment */
+    }
+}

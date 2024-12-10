@@ -1,0 +1,56 @@
+/* Main container */
+.contest-stats {
+    position: relative;
+    min-height: 53px;
+    font-size: 12px; /* Equivalent to text-xs in Tailwind */
+  }
+  
+  /* Flex container for stats */
+  .stats-container {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  /* Individual stat item */
+  .stat-item {
+    margin-right: 16px; /* Equivalent to mr-4 in Tailwind */
+  }
+  
+  /* Label styling */
+  .label {
+    color: #666; /* Adjust as needed for dark/light theme */
+    font-weight: 500; /* Equivalent to font-medium */
+  }
+  
+  /* Value styling */
+  .value {
+    color: #000; /* Adjust as needed for dark/light theme */
+    font-size: 1rem;
+    line-height: 22px;
+  }
+  
+  /* Larger font size for key value */
+  .value.large {
+    font-size: 1.5rem; /* Equivalent to text-2xl in Tailwind */
+    line-height: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Sub-value styling */
+  .sub-value {
+    color: #aaa; /* Adjust as needed for dark/light theme */
+  }
+  
+  /* Responsive design for "Attended" */
+  .attended {
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .attended {
+      display: block;
+    }
+  }
+  
